@@ -1,0 +1,231 @@
+/* すべての要素に対して box-sizing: border-box; を指定してください */
+*{
+    box-sizing:border-box;
+  }
+  html{
+  height:100%;
+  }
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  a {
+    text-decoration: none;
+  }
+  /* clearクラスにfloatを解除するためのCSSを記述してください */
+  .clear{
+    clear:left;
+  }
+.fa-bars{
+	display:none;
+}
+.login1{
+	margin-right:5px;
+}
+.login2{
+	margin-right:5px;
+}
+  /* containerクラスのCSSを指定してください */
+  .container{
+    max-width:1170px;
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  /* top-wrapperクラスのCSSを指定してください */
+  .top-wrapper{
+    padding-top:200px;
+    padding-bottom:50px;
+    background-image:url(https://www.pakutaso.com/shared/img/thumb/wpIMGL2785_TP_V.jpg);
+    color:black;
+    background-size:cover;
+  text-align:center; 
+  }
+  .container span{
+    color:#ff0000;
+  }
+  .top-wrapper h1{
+    opacity:0.7;
+    font-size:45px;
+    letter-spacing:5px;
+  }
+  .top-wrapper p{
+    opacity
+  }
+  .btn{
+    padding:8px 24px;
+    color:white;
+    display:inline-block;
+    opacity:0.8;
+      border-radius:20px;
+  }
+  .btn:hover{
+    opacity:1;
+  }
+  /* signupクラスのCSSを指定してください */
+  .signup{
+    background-color:#239b76;
+  text-align:center;
+  }
+  /* facebookクラスのCSSを指定してください */
+  .lostall{
+    background-color:#3b5998;
+    margin-right:50px;
+  text-align:center;
+  }
+  /* twitterクラスのCSSを指定してください */
+  .dingal{
+    background-color:#55acee;
+  text-align:center;
+  }
+  /* btn-wrapperクラスのCSSを指定してください */
+  .btn-wrapper{
+    margin:20px 0;
+  }
+  /* btn-wrapperクラスの中にある<p>のCSSを指定してください */
+  .btn-wrapper p{
+    margin:10px 0;
+  text-align:center;
+  }
+  header{
+    height:40px;
+    background-color:rgba(34, 49, 52, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+      width:100%;
+  }
+  .logo{
+    width:300px;
+    margin-top:10px;
+      position: fixed;
+      left: 0;
+  padding-bottom:5px;
+  }
+  .header-left{
+    float:left;	
+  }
+  .header-right{
+    float:right;
+    background-color:rgba(255, 255, 255, 0.3);
+    transition:all 0.5s;
+      position: fixed;
+      right: 0;	
+  }
+  .header-right:hover{
+    background-color:rgba(255, 255, 255, 0.5);	
+  }
+  /* menu-iconのCSSを貼り付けてください */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 5px 0;
+    /* displayをnoneに指定してください */
+    display:none;
+  }
+  .header-right a{
+    line-height:40px;
+    padding:0 25px;
+    color:white;
+  }
+  .lesson-wrapper{
+    padding-bottom:80px;
+    background-color:#f7f7f7;
+    text-align:center;
+  }
+  .heading{
+    padding:60px 0 30px 0;
+    color:white;
+  }
+  .heading h2{
+    font-weight:normal;
+  }
+  .lesson{
+    float:left;
+    width:25%;
+  }
+  .lesson-icon{
+    position:relative;
+  }
+  .lesson-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:black;
+  }
+  .txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:12px;
+    color:black;
+  }
+  .message-wrapper{
+    padding-bottom:80px;
+    text-align:center;
+  background-color:#666699;
+  }
+  .message{
+    background-color:white;
+    padding:15px 40px;
+    cursor:pointer;
+    box-shadow:0 7px black;
+  }
+  .heading h3{
+    font-weight:normal;
+  }
+  .message:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+  }
+  .btn.message{
+      color:black;
+  }
+  footer img{
+    width:400px;
+  }
+  footer p{
+    color:white;
+    font-size:15px;
+  padding-bottom:20px;
+  }
+  footer{
+    padding-top:10px;
+  background-color:#000033;
+  text-align:center;
+  }
+  footer .logo{
+  margin-left: 5%;
+  }
+  .heading h2{
+      color:black;
+  }
+  .heading h3{
+      color:white;
+  }
+  @media (max-width: 1000px) {
+    h1{
+      color:blue;
+    } 
+  }
+  @media (max-width: 670px) {
+    h1{
+      color:green;
+    } 
+  }
+  /* タブレット向けレイアウト */
+  @media(max-width: 1000px){
+    .container{
+      width:50%;
+    }
+  }
+  /* スマートフォン向けレイアウト */
+  @media(max-width: 670px){
+    .container{
+      width:100%;
+    }
+  }
