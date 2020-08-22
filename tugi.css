@@ -47,12 +47,13 @@
     color:#ff0000;
   }
   .top-wrapper h1{
+	  color:white;
     opacity:0.7;
     font-size:45px;
     letter-spacing:5px;
   }
   .top-wrapper p{
-    opacity
+     color:white;
   }
   .btn{
     padding:8px 24px;
@@ -61,6 +62,9 @@
     opacity:0.8;
       border-radius:20px;
   }
+.btn-wrapper p{
+	 color:white;
+}
   .btn:hover{
     opacity:1;
   }
