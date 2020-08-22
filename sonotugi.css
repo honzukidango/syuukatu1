@@ -1,0 +1,69 @@
+/* タブレット向けレイアウト */
+
+/* ブレイクポイントが1000px以下のときのメディアクエリを設定してください */
+@media (max-width: 1000px) {
+  /* lessonクラスのCSSを指定してください */
+  .lesson{
+    width:50%;
+    margin-bottom:50px;
+  }
+  /* 「.top-wrapper h1」のfont-sizeを32pxに指定 */
+  .top-wrapper h1{
+    font-size:32px;
+  }
+  
+  /* 「.heading h2」のfont-sizeを20pxに指定 */
+  .heading h2{
+    font-size:20px;
+  }
+  
+}
+
+/* スマホ向けレイアウト */
+
+/* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
+@media (max-width: 670px) {
+  /* .lessonのwidthを100%に指定してください */
+  .lesson{
+    width:100%;
+  }
+  
+  /* <footer>の中身を中央寄せにしてください。 */
+  footer{
+    text-align:center;
+  }
+ /* .btnのwidthを100%に指定してください */
+  .btn{
+    width:100%;
+  }
+
+  /* .facebookにmargin-bottom: 10px;を追加してください */
+  .lostall{
+    margin-bottom:10px;
+  }
+
+  /* .top-wrapperの中身を左寄せに、padding-topを130pxに指定してください */
+  .top-wrapper{
+    padding-top:130px;
+    text-align:left;
+  }
+  /* 「.top-wrapper h1」のfont-sizeを24pxに指定 */
+   .top-wrapper h1{
+    font-size:24px;
+  } 
+  
+  /* 「.top-wrapper p」のfont-sizeを14pxに指定 */
+    .top-wrapper p{
+    font-size:14px;
+  }
+  /* header-rightクラスのdisplayをnoneに指定してください */
+  .header-right{
+    display:none;
+  }
+  
+  /* menu-iconクラスのdisplayをblockに指定してください  */
+  .menu-icon{
+    display:block;
+  }
+  
+}
